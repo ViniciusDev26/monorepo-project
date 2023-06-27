@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "043f16e0-e609-4fc4-b1c6-3d932cbf8b02",
+    "colId": "f27953ff-3bcc-42e7-bb79-432a09c81b59",
+    "containerId": "",
+    "name": "Register products",
+    "url": "localhost:3000/products",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-06-26T03:29:16.200Z",
+    "modified": "2023-06-26T03:47:35.764Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Biscoite de chocolate\",\n  \"price\": 3.50\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b68fe563-9859-4bcb-9bcd-5747e09d1d06",
+    "colId": "f27953ff-3bcc-42e7-bb79-432a09c81b59",
+    "containerId": "",
+    "name": "List Products",
+    "url": "localhost:3000/products",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-06-26T03:43:59.241Z",
+    "modified": "2023-06-26T03:44:08.393Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2fdf15c6-d573-4a1b-a32f-e4d7d30d84ec",
+    "colId": "6a3cb701-7ec4-4286-9856-2e4aef72a3a4",
+    "containerId": "",
+    "name": "Register combo",
+    "url": "localhost:3000/combos",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-06-26T17:55:15.883Z",
+    "modified": "2023-06-26T17:59:56.413Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Big mac fome grande\",\n  \"description\": \"para grandes fomes\",\n  \"price\": 39.9,\n  \"productsIds\": [\"220a9639-aaf9-4f1f-9708-e4c664d3c127\", \"d0d96148-c0d3-4e26-9d79-b15064f58bd3\", \"e487e007-064e-4e60-b5f4-d4cb14d31ea3\"]\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "f27953ff-3bcc-42e7-bb79-432a09c81b59",
+    "colName": "products",
+    "created": "2023-06-26T03:29:01.888Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "6a3cb701-7ec4-4286-9856-2e4aef72a3a4",
+    "colName": "combos",
+    "created": "2023-06-26T17:55:07.048Z",
+    "sortNum": 20000,
+    "folders": []
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "Carlos Vinicius <viniciusdev.26@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-backend:dev": "yarn workspace backend run start:dev"
+  },
+  "workspaces": [
+    "packages/**"
+  ]
+}
